@@ -23,7 +23,7 @@ main{
     width: auto;
 }
 footer{
-	position: fixed;
+	/* position: fixed; */
 	bottom: 0;
 	background: #35383c;
 	color:white;
@@ -46,7 +46,7 @@ footer{
 	justify-content: center;
 	align-items: center !important;
 	flex-wrap: wrap;
-	padding:20px 0px 0px 20px;
+	padding:10px 0px;
 	height: auto;
 }
 .fa{
@@ -63,12 +63,7 @@ footer{
 	color: rgb(249, 253, 253);
 }
 
-@media only screen and (max-width: 580px) {
-	.fa{
-		margin: 10px 10px;
-	}
-	
-}
+
 
 .india{
 	color: yellowgreen;
@@ -85,3 +80,39 @@ footer{
 	padding-top: 20px;
 }
 
+.profile img{
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	
+}
+
+.card{
+	display: flex;
+	justify-content: space-between;
+	grid-template-columns: minmax(200px, 35%), 1fr;
+	padding: 2% 8%;
+	font-family: 'Reggae One', cursive;
+	color: teal;
+	font-weight: 10;
+}
+
+
+.content{
+	padding-left: 15px;
+}
+
+@media only screen and (max-width: 580px) {
+	.fa{
+		margin: 10px 10px;
+		
+	}
+	.card{
+		display: grid;
+		grid-template-columns: 1fr;
+		padding: 5%;
+		justify-items: center;
+		font-weight: 40	;
+	}
+	
+}
