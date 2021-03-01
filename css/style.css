@@ -136,7 +136,7 @@ footer{
 	border: #dfe4eb solid 1px;
 	border-radius: 1em;
 	padding: 1rem;
-	box-shadow: 4px 4px 4px 2px;
+	box-shadow:0px;
 	background-color: #fff;
 	/* background:rgb(4, 247, 247); */
 }
