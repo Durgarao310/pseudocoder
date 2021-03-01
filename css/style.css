@@ -38,7 +38,7 @@ main{
 footer{
 	/* position: fixed; */
 	bottom: 0;
-	background: rgba(176, 180, 180, 50%);
+	background: cyan;
 	color: #121213;
 	width: 100%;
 	height: auto;
@@ -221,4 +221,4 @@ footer{
 .booksiread{
 	text-align: center;
 	color: #fff;
-}
+}}}
