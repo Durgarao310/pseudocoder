@@ -53,7 +53,7 @@ footer{
 	text-decoration: none;
 	padding: 15px;
 	background-color: azure;
-	margin: 10px 40px;
+	margin: 0px 20px;
 	border-radius: 50%;
 	
 }
@@ -107,7 +107,7 @@ footer{
 @media only screen and (max-width: 580px) {
 
 	.fa{
-		margin: 10px 10px;
+		margin: 5px 10px;
 		
 	}
 	.content{
@@ -124,7 +124,7 @@ footer{
 }
 
 .name{
-	color: #1170cf;
+	color: #121213;
 	font-family:  'Permanent Marker', cursive;;
 	font-size: 80%;
 	padding-left: 4px;
@@ -142,4 +142,5 @@ footer{
 }
 .pf-img:hover{
 	background: linear-gradient(-45deg, #4b384c 15%, cyan 100%);
+	color: #fff;
 }}
