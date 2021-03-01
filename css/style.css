@@ -142,5 +142,9 @@ footer{
 }
 .pf-img:hover{
 	background: linear-gradient(-45deg, #4b384c 15%, cyan 100%);
+	box-shadow: 4px 4px 4px 2px;
+}
+
+.pf-img:hover .name{
 	color: #fff;
-}}
+}
