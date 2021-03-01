@@ -70,11 +70,31 @@
                 </ul>
             </div>
         </div>
-        <div class="fav-books">
-            <!-- <h2 class="booksiread">Books I read.</h2> -->
-            
-        </div>
     </main>
+    
+    <h2 class="booksiread">Books I read.</h2>
+    <div class="fav-books">
+        <div class="mySlides">
+            <img class="mySlides-img" src="https://avatars.githubusercontent.com/u/150330?s=400&v=4" alt="">
+            <h3 class="title">“ You Don’t Know JS ”</h3>
+            <p>Books like “You don’t know Javascript” are read quite enjoyable and have many examples and explanations for you to acquire and understand the main elements of Javascript.</p>
+        </div>
+        <div class="mySlides">
+            <img class="mySlides-img" src="https://codingfortech.com/wp-content/uploads/2019/09/P19R5A1.jpg" alt="">
+            <h3 class="title">“ Learn Python The Hard Way ”</h3>
+            <p>You Will Learn Python 3! Zed Shaw has perfected the world’s best system for learning Python 3. Follow it and you will succeed—just like the millions of beginners Zed has taught to date! You bring the discipline, commitment, and persistence; the author supplies everything </p>
+        </div>
+        <div class="mySlides">
+            <img class="mySlides-img" src="https://pbs.twimg.com/profile_images/828841604068712448/oWnPS5I6.jpg" alt="">
+            <h3 class="title">
+                <h3 class="title">“ Interneting Is Hard ”</h3>
+
+                </h3>
+            <p>The friendliest first encounter you’ll ever have with web development.
+                <small>learning HTML and CSS is hard, but it doesn’t have to be. This 14-chapter tutorial is one of the friendliest HTML and CSS guides on the Internet. We’ll walk you through everything from selecting a good text editor (which is surprisingly important) to building full-fledged, professional-quality web pages from scratch.</small>
+            </p>
+        </div>
+    </div>
     <footer>
         <div class="address">
             <h1>I'm proud be an ❤️<span class="india">Indian</span></h1>
@@ -96,5 +116,21 @@
             <p>&#169<span>2021 PseudoCoder.</span> </p>
         </div>
     </footer>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 9000); // Change image every 2 seconds
+        }
+        </script>
 </body>
 </html>
