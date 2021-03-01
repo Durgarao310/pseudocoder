@@ -101,7 +101,7 @@ footer{
 
 
 .content{
-	padding-left: 15px;
+	padding-left: 2em;
 }
 
 @media only screen and (max-width: 580px) {
@@ -109,6 +109,9 @@ footer{
 	.fa{
 		margin: 10px 10px;
 		
+	}
+	.content{
+		padding-top: 1em;
 	}
 	.card{
 		display: grid;
