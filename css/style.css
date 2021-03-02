@@ -17,8 +17,10 @@
 header{
     width: 100%;
     height: auto;
-    background-color: #FFFFFF	;
-	box-shadow: 0px 0px 2px 0px;
+	background: #252525;
+	box-shadow: 0px 0px 10px;
+	/* border-bottom:#dfe4eb solid 4px; */
+	
 }
 
 main{
@@ -39,11 +41,12 @@ main{
 footer{
 	/* position: fixed; */
 	bottom: 0;
-	background: cyan;
-	color: #121213;
+	background: #252525;
+	color: #FFFFFF;
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	font-size: 80%;
 }
 
 .copyright p{
@@ -144,6 +147,9 @@ footer{
 	}
 	.profile{
 		padding: 3%;
+	}
+	footer{
+		font-size: 60%;
 	}
 	
 }
