@@ -18,8 +18,10 @@ header{
     width: 100%;
     height: auto;
 	background: #252525;
-	box-shadow: 0px 0px 10px;
-	/* border-bottom:#dfe4eb solid 4px; */
+	box-shadow: 0px 0px 10px 0px;
+	justify-content: center;
+	color: #dfe4eb;
+	font-family:  cursive;
 	
 }
 
@@ -32,11 +34,12 @@ main{
 }
 
 .logo{
+	text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 15vh;
     width: auto;
+	padding: 2%;
 }
 footer{
 	/* position: fixed; */
@@ -270,4 +273,9 @@ footer{
 .title{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: rgb(55, 10, 252);
-}}
+}
+
+.p{
+	color: orange;
+	font-family: 'Reggae One', cursive;
+}
